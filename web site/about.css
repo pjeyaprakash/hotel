@@ -1,0 +1,124 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url("media/bg3.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    
+}
+header h1{
+    letter-spacing: 4px;
+    margin: 0;
+    color: rgb(255, 0, 0);
+    font-variant: small-caps;
+    font-size: 60px;
+    text-shadow: 5px 2px 4px black;
+    
+}
+header{
+    position:relative;
+    background:radial-gradient(white,rgb(0, 255, 0));
+    width: 100%;
+    height: 105px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+a{
+
+    font-size: 23px;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+nav{
+    display: flex;
+    gap: 20px;
+}
+header a:hover{
+    transform: scale(1.1);
+    color: blue;
+}
+
+/* main */
+main{
+    height: 120vh;
+    color: rgb(255, 255, 255);
+    display: grid;
+    place-items: center;
+}
+.container{
+    background-color: rgba(0, 0, 0, 0.65);
+    margin-top: 50px;
+    width: 1000px;
+    height: 95vh;
+    border: 1px solid whitesmoke;
+    border-radius: 40px;
+    overflow: hidden;
+    display: flex;
+    clear: left;
+}
+img{
+    transform: rotatey(180deg);
+    width: 42%;
+    height: 100%;
+}
+h1{
+    color: rgb(0, 255, 0);
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+}
+.para p{
+    display: flex;
+    text-align: center;
+    font-weight: 600;
+    line-height: 25px;
+    text-indent: 20px;
+    font-size: 18px;
+    padding: 0px 20px;
+    padding-left: 30px;
+}
+.para{
+    border-left: 1px solid white;
+}
+.suma{
+    height: 100px;
+}
+
+/* footer */
+
+footer{
+    margin: 0;
+    width: 100%;
+    height: 110px;
+    display: grid;
+    grid-template-columns: 30% 35% 35%;
+    background:radial-gradient(white,rgb(0, 255, 0));
+
+}
+.nav{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.nav a{
+    font-size: 17px;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+footer h3{
+    margin: 2px;
+}
+.fa{
+    color: rgb(0, 0, 0);
+    padding: 5px;
+}
+footer p{
+    margin: 0 0 10px 0;
+}
+.sub button{
+    background-color: white;
+    border: 1px solid;
+}
